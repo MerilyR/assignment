@@ -3,6 +3,11 @@ package ee.dev.proekspert;
 public class LogAnalyzer {
 
 	public static void main(String[] args) {
+
+		trackRunTime(true);
+		
+		
+		
 		String logfile = args[0];
 		int top = Integer.parseInt(args[1]);
 		
@@ -12,6 +17,22 @@ public class LogAnalyzer {
 				+ " >>>"
 			);
 		
+		
+		
+		trackRunTime(false);
 	}
 
+	static long startTime;	
+	private static void trackRunTime (boolean isRunning) {
+		if (isRunning) {
+			startTime = System.currentTimeMillis();
+			System.out.println("Started tracking program run time...");
+		}
+		else {
+			long runTime = System.currentTimeMillis() - startTime;
+			System.out.println("Current program run time was " + runTime + " milliseconds.");
+		}
+			
+	}
+	
 }
