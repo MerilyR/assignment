@@ -12,7 +12,7 @@ public class LogAnalyzer {
 		int top = Integer.parseInt(args[1]);
 		
 		System.out.println (
-				"Printing out top " + top 
+				"<<< Printing out top " + top 
 				+ " resources with highest average request duration from " + logfile 
 				+ " >>>"
 			);
@@ -26,11 +26,11 @@ public class LogAnalyzer {
 	private static void trackRunTime (boolean isRunning) {
 		if (isRunning) {
 			startTime = System.currentTimeMillis();
-			System.out.println("Started tracking program run time...");
+			System.out.println("><Started tracking program run time...\n");
 		}
 		else {
 			long runTime = System.currentTimeMillis() - startTime;
-			System.out.println("Current program run time was " + runTime + " milliseconds.");
+			System.out.println("\n><Current program run time was " + runTime + " milliseconds.");
 		}
 			
 	}
