@@ -4,14 +4,16 @@ timestamp 	 						\d{2}:\d{2}:\d{2},\d{3}
 
 thread-id in brackets				\((.+)\)
 
-user context in square brackets		\[(.*)\]
+user context in square brackets		\[(.*)\] 	\[[^\]]*\]
 
-URI + query / resource 				(.*&&[\S])
+URI + query							([\S])+
+
+resource							(\w&&[/S])+
 
 payload elements (0...n)			(\s+([\S])+)*
 
-request duration					in \d+
+request duration					in\s+\d+
 
-File format - URI					\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2},\d{3}\s+\((.*?)\)\s+\[(.*?)\]\s+([\S])+\s+in\s+\d+
+File format - URI					\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2},\d{3}\s+\((.+)\)\s+\[[^\]]*\]\s+([\S])+\s+in\s+\d+
 
-File format - resource+payload		\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2},\d{3}\s+\((.*?)\)\s+\[(.*?)\]\s+([\S])+(\s+([\S])+)*\s+in\s+\d+
+File format - resource+payload		\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2},\d{3}\s+\((.+)\)\s+\[[^\]]*\]\s+(\w)+(\s+([\S])+)*\s+in\s+\d+
