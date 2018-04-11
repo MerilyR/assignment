@@ -20,6 +20,11 @@ public class LogAnalyzer {
 		}
 		
 		String logfile = args[0];
+		if (logfile.isEmpty()) {
+			System.err.println("xxx You must enter a filename. Use '-h' for help! xxx");
+			System.exit(0);
+		}
+		
 		int top = 0;
 		if (args.length > 1) {
 			try {

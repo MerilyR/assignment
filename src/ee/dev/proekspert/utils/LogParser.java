@@ -19,13 +19,13 @@ public class LogParser {
 		try {
 			fileBuffer = Files.newBufferedReader(Paths.get(logfile));
 		} catch (IOException e) {
-			System.err.println("xxx File not found: "+e.getMessage()+" xxx");
+			System.err.println("xxx Error when opening the file: " + e.getMessage() + " xxx");
 			System.exit(0);
 		}
-			
+		
+		//parse log, get records
 		ArrayList<Record> records = new ArrayList<Record>();
 		int i=0;
-		//parse log, get records
 		try {
 			
 			System.out.println("<<< Parsing log file >>> ");
@@ -35,14 +35,19 @@ public class LogParser {
 				//System.out.print((i+1)+". line: " + line);
 				i++;
 				records.add(Record.getRecord(line));
-				//TODO: do stuff with each record
+				
+				//TODO: keep running average duration of each resource
+				
+				//TODO: keep running number of requests per hour
 			}
 			
 			System.out.println("<<< Log file '" + logfile + "' parsing finished >>>");
 			System.out.println(">>> Lines read: " + i + " / Records created : "+records.size());
 			
-			fileBuffer.close();
-						
+			//TODO: print top n resources with highest average request duration
+			
+			//TODO: draw a histogram of hourly number of requests
+									
 		} catch (IOException e) {
 			System.err.println("xxx Not able to read line "+i+": "+e.getMessage()+" xxx");
 		} catch (PatternSyntaxException pse) {
@@ -58,7 +63,13 @@ public class LogParser {
 		                    pse.getIndex());
 		}
 
-		//TODO: do stuff with recordlist ... if asked !?!
+		try {
+			fileBuffer.close();
+		} catch (IOException e) {
+			System.err.println("xxx Error when closing the file - " + e.getMessage() + " xxx");
+		}
+
+		//TODO: methods for doing stuff with records 
 		
 	}
 
