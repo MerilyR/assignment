@@ -84,6 +84,22 @@ public class Record {
 		
 	}
 
+	public Date getDate() {
+		return date;
+	}
+
+	public String getDateString() {
+		return sdfPrint.format(date);
+	}
+
+	public Long getDuration() {
+		return duration;
+	}
+
+	public String getResource() {
+		return resource;
+	}
+
 	SimpleDateFormat sdf = new SimpleDateFormat ("yyyy-MM-dd HH:mm:ss,SSS");
 
 	public static Record getRecord (String logLine) {

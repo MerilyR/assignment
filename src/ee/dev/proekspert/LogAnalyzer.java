@@ -8,7 +8,7 @@ public class LogAnalyzer {
 
 		trackRunTime(true);
 		
-		if (args[0].equals("-h")) {
+		if (args.length != 0 && args[0].equals("-h")) {
 			System.out.println(
 					"<<< This is the help of the program >>> \n"
 					+ "- The program takes a logfile name as a first argument.\n"
@@ -19,8 +19,8 @@ public class LogAnalyzer {
 			System.exit(0);
 		}
 		
-		String logfile = args[0];
-		if (logfile.isEmpty()) {
+		String logfile = "";
+		if (args.length == 0 || (logfile = args[0]).isEmpty()) {
 			System.err.println("xxx You must enter a filename. Use '-h' for help! xxx");
 			System.exit(0);
 		}
