@@ -1,0 +1,67 @@
+2015-08-19 00:00:01,049 (http--0.0.0.0-28080-405) [] /checkSession.do in 187
+2015-08-19 00:00:01,963 (http--0.0.0.0-28080-245) [] /checkSession.do in 113
+2015-08-19 00:00:02,814 (http--0.0.0.0-28080-245) [ASP CUST:CUS5T27233] /substypechange.do?msisdn=300501633574 in 17
+2015-08-19 00:00:03,260 (http--0.0.0.0-28080-245) [CUST:CUS5T27233] /mainContent.do?action=TOOLS&contentId=main_tools in 5
+2015-08-19 00:00:03,272 (http--0.0.0.0-28080-245) [CUST:CUS5T27233] /chat.do in 0
+2015-08-19 00:00:03,376 (http--0.0.0.0-28080-85) [USER:300553344974] getSubscriptionAuthTokens 300553344974 in 25
+2015-08-19 00:00:03,383 (http--0.0.0.0-28080-245) [CUST:CUS5T27233] /substypechange.do?action=PACKAGE_XXX_DISCLAIMER&msisdn=300501633574 in 53
+2015-08-19 00:00:03,388 (http--0.0.0.0-28080-85) [USER:300553344974] /mainContent.do?action=SUBSCRIPTION_USER&msisdn=300553344974&contentId=main_subscription in 38
+2015-08-19 00:00:06,467 (http--0.0.0.0-28080-85) [] /checkSession.do in 125
+2015-08-19 00:00:08,281 (http--0.0.0.0-28080-259) [CUST:CUS12T2321] /main.do in 11
+2015-08-19 00:00:08,505 (http--0.0.0.0-28080-407) [CUST:CUS12T2321] /chat.do in 1
+2015-08-19 00:00:08,507 (http--0.0.0.0-28080-405) [CUST:CUS12T2321] /mainContent.do?action=NOTIFICATIONS&notificationType=invoice&contentId=notifications in 4
+2015-08-19 00:00:08,512 (http--0.0.0.0-28080-14) [CUST:CUS12T2321] /mainContent.do?action=TOOLS&contentId=main_tools in 8
+2015-08-19 00:00:08,886 (http--0.0.0.0-28080-187) [CUST:CUS12T2321] /mainContent.do?action=CAROUSEL&contentId=main_carousel in 382
+2015-08-19 00:00:08,922 (http--0.0.0.0-28080-187) [CUST:CUS12T2321] /getcontactinfo.do in 0
+2015-08-19 00:00:09,967 (http--0.0.0.0-28080-3) [CUST:CUS12T2321] /mainContent.do?action=SUBSCRIPTION&msisdn=300445644148&contentId=main_subscription in 18
+2015-08-19 00:00:10,597 (http--0.0.0.0-28080-85) [CUST:CUS88M2281] /checkSession.do in 128
+2015-08-19 00:00:11,171 (http--0.0.0.0-28080-3) [] updateSubscriptionFromBackend 300407044035 in 206
+2015-08-19 00:00:11,184 (http--0.0.0.0-28080-14) [] /checkSession.do in 132
+2015-08-19 00:00:11,219 (http--0.0.0.0-28080-3) [] getPermission  300407044035 in 35
+2015-08-19 00:00:11,715 (http--0.0.0.0-28080-85) [CUST:CUS13V2211] /checkSession.do in 126
+2015-08-19 00:00:12,279 (http--0.0.0.0-28080-14) [CUST:CUS12T2321] /mobilityServices.do?action=SERVICES&msisdn=300445644148&contentId=main_subscription in 70
+2015-08-19 00:00:12,587 (http--0.0.0.0-28080-14) [CUST:CUS85J3381] /checkSession.do in 127
+2015-08-19 00:00:13,088 (http--0.0.0.0-28080-85) [] getBroadbandSubscriptions CUS41Q3183 in 1000
+2015-08-19 00:00:13,544 (http--0.0.0.0-28080-259) [CUST:CUS81B3383] /checkSession.do in 129
+2015-08-19 00:00:16,252 (http--0.0.0.0-28080-85) [CUST:CUS41Q3183] /index.jsp in 0
+2015-08-19 00:00:16,260 (http--0.0.0.0-28080-3) [USER:300407044035] /index.jsp in 0
+2015-08-19 00:00:16,395 (http--0.0.0.0-28080-259) [USER:300407044035] /main.do in 12
+2015-08-19 00:00:16,433 (http--0.0.0.0-28080-85) [] updateSubscriptionFromBackend 300500274042 in 142
+2015-08-19 00:00:16,475 (http--0.0.0.0-28080-85) [] getPermission  300500274042 in 28
+2015-08-19 00:00:16,513 (http--0.0.0.0-28080-85) [USER:300500274042] /index.jsp in 0
+2015-08-19 00:00:16,531 (http--0.0.0.0-28080-85) [USER:300500274042] /main.do in 8
+2015-08-19 00:00:16,771 (http--0.0.0.0-28080-394) [USER:300500274042] /chat.do in 0
+2015-08-19 00:00:16,784 (http--0.0.0.0-28080-394) [USER:300500274042] /mainContent.do?action=CAROUSEL&contentId=main_carousel in 2
+2015-08-19 00:00:16,793 (http--0.0.0.0-28080-85) [] /checkSession.do in 98
+2015-08-19 00:00:16,799 (http--0.0.0.0-28080-85) [USER:300500274042] /mainContent.do?action=TOOLS&contentId=main_tools in 3
+2015-08-19 00:00:16,873 (http--0.0.0.0-28080-245) [CUST:CUS41Q3183] /main.do in 370
+2015-08-19 00:00:16,921 (http--0.0.0.0-28080-85) [USER:300500274042] getSubcriptionCampaigns 300500274042 true in 110
+2015-08-19 00:00:16,983 (http--0.0.0.0-28080-85) [USER:300500274042] /mainContent.do?action=SUBSCRIPTION&msisdn=300500274042&contentId=main_subscription in 173
+2015-08-19 00:00:16,998 (http--0.0.0.0-28080-85) [USER:300500274042] /tools.do?target=KKK_KKK in 1
+2015-08-19 00:00:17,267 (http--0.0.0.0-28080-3) [] getBroadbandSubscriptions CUS41T4499 in 876
+2015-08-19 00:00:18,486 (http--0.0.0.0-28080-394) [CUST:CUS41Q3183] /mainContent.do?action=TOOLS&contentId=main_tools in 5
+2015-08-19 00:00:18,597 (http--0.0.0.0-28080-394) [CUST:CUS41Q3183] /chat.do in 102
+2015-08-19 00:00:18,801 (http--0.0.0.0-28080-245) [CUST:CUS41Q3183] /mainContent.do?action=CAROUSEL&contentId=main_carousel in 336
+2015-08-19 00:00:18,868 (http--0.0.0.0-28080-394) [USER:300553344974] /localesave.do in 141
+2015-08-19 00:00:18,955 (http--0.0.0.0-28080-394) [USER:300553344974] /mainContent.do?action=SUBSCRIPTION_USER&msisdn=300553344974&locale=en in 9
+2015-08-19 00:00:19,279 (http--0.0.0.0-28080-394) [CUST:CUS41Q3183] /getcontactinfo.do in 0
+2015-08-19 00:00:19,325 (http--0.0.0.0-28080-259) [USER:300407044035] /mainContent.do?action=NOTIFICATIONS&notificationType=invoice&contentId=notifications in 1
+2015-08-19 00:00:19,350 (http--0.0.0.0-28080-14) [USER:300407044035] /mainContent.do?action=CAROUSEL&contentId=main_carousel in 2
+2015-08-19 00:00:19,376 (http--0.0.0.0-28080-259) [USER:300407044035] /mainContent.do?action=TOOLS&contentId=main_tools in 2
+2015-08-19 00:00:19,413 (http--0.0.0.0-28080-259) [USER:300407044035] /chat.do in 0
+2015-08-19 00:00:19,438 (http--0.0.0.0-28080-394) [USER:300553344974] /mainContent.do?action=NOTIFICATIONS&notificationType=invoice&contentId=notifications in 1
+2015-08-19 00:00:19,442 (http--0.0.0.0-28080-394) [USER:300553344974] /mainContent.do?action=CAROUSEL&contentId=main_carousel in 2
+2015-08-19 00:00:19,483 (http--0.0.0.0-28080-394) [USER:300553344974] /mainContent.do?action=TOOLS&contentId=main_tools in 3
+2015-08-19 00:00:19,497 (http--0.0.0.0-28080-394) [USER:300553344974] getSubscriptionAuthTokens 300553344974 in 11
+2015-08-19 00:00:19,506 (http--0.0.0.0-28080-394) [USER:300553344974] /mainContent.do?action=SUBSCRIPTION_USER&msisdn=300553344974&locale=en&contentId=main_subscription in 20
+2015-08-19 00:00:21,013 (http--0.0.0.0-28080-14) [] /checkSession.do in 154
+2015-08-19 00:00:21,765 (http--0.0.0.0-28080-394) [CUST:CUS5T27233] /mainContent.do?action=SUBSCRIPTION&msisdn=300501633574 in 12
+2015-08-19 00:00:21,974 (http--0.0.0.0-28080-394) [] /checkSession.do in 127
+2015-08-19 00:00:22,137 (http--0.0.0.0-28080-394) [CUST:CUS5T27233] /mainContent.do?action=NOTIFICATIONS&notificationType=invoice&contentId=notifications in 3
+2015-08-19 00:00:22,162 (http--0.0.0.0-28080-362) [CUST:CUS5T27233] /mainContent.do?action=SUBSCRIPTION&msisdn=300501633574&contentId=main_subscription in 16
+2015-08-19 00:00:22,164 (http--0.0.0.0-28080-297) [CUST:CUS5T27233] /mainContent.do?action=TOOLS&contentId=main_tools in 6
+2015-08-19 00:00:22,166 (http--0.0.0.0-28080-297) [CUST:CUS5T27233] /chat.do in 0
+2015-08-19 00:00:22,428 (http--0.0.0.0-28080-259) [USER:300407044035] getSubcriptionCampaigns 300407044035 true in 2669
+2015-08-19 00:00:22,442 (http--0.0.0.0-28080-259) [USER:300407044035] /mainContent.do?action=SUBSCRIPTION&msisdn=300407044035&contentId=main_subscription in 2684
+2015-08-19 00:00:22,524 (http--0.0.0.0-28080-245) [USER:300553344974] /chat.do in 3033
+2015-08-19 00:00:22,669 (http--0.0.0.0-28080-14) [] updateSubscriptionFromBackend 301405722123 in 343

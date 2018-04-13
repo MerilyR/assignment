@@ -108,6 +108,9 @@ public class Record {
 		
 		//System.out.println(">>> Logline matches " + t);		
 		
+		if (t == null)
+			return null;
+
 		try {
 			
 			return new Record(t, logLine);
@@ -115,7 +118,7 @@ public class Record {
 		} catch (ParseException e) {
 			
 			System.err.println("xxx Record could not be created. Line - "+logLine+" xxx");
-			e.printStackTrace();
+			// e.printStackTrace();
 			return null;
 			
 		}
@@ -148,7 +151,7 @@ public class Record {
 		}
 	}
 	
-	SimpleDateFormat sdfPrint = new SimpleDateFormat("dd-MM-yyyy HH:00");
+	public static SimpleDateFormat sdfPrint = new SimpleDateFormat("yyyy-MM-dd HH:00");
 	
 	@Override
 	public String toString() {
